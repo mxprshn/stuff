@@ -1,0 +1,30 @@
+Total time: 00:00:18.420.
+
+
+26 error(s) occured!
+---------------------- 8 time(s): ----------------------
+unreachable branch hit!
+---------------------- 5 time(s): ----------------------
+New extern method: System.Void System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(System.Runtime.CompilerServices.QCallTypeHandle)
+---------------------- 3 time(s): ----------------------
+creating object from term: unexpected term (HeapRef get_Current():0 to JetBrains.Threading.ByteBufferAsyncProcessor)
+---------------------- 2 time(s): ----------------------
+creating object from term: unexpected term (HeapRef mySingleValue to JetBrains.Threading.ByteBufferAsyncProcessor)
+---------------------- 2 time(s): ----------------------
+New extern method: System.Int32 Interop+Sys.LChflagsCanSetHiddenFlag()
+---------------------- 1 time(s): ----------------------
+creating object from term: unexpected term (HeapRef myMultipleValues._items[i] to JetBrains.Threading.ByteBufferAsyncProcessor)
+---------------------- 1 time(s): ----------------------
+simplifyBinary of: True LogicalOr 1006632960
+---------------------- 1 time(s): ----------------------
+simplifyBinary of: True LogicalOr 2147483136
+---------------------- 1 time(s): ----------------------
+simplifyBinary of: True LogicalOr 131072
+---------------------- 1 time(s): ----------------------
+expected HeapRef, but got null
+---------------------- 1 time(s): ----------------------
+New extern method: System.Void System.String..ctor(this, System.ReadOnlySpan`1[System.Char])
+
+
+1 branch(es) with insufficient input information!
+Test generation for too large buffers disabled for now
