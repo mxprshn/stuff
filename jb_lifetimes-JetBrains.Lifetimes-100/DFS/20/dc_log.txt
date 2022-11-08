@@ -1,0 +1,23 @@
+13:43:44.404 |I|                               | :1                 | JetBrains dotCover Console Runner 2022.2.3. Build 777.0.20220901.65655
+13:43:44.417 |I|                               | :1                 | LogLevel: INFO
+13:43:44.418 |I| Main                          | :1                 | Command line: /home/runner/.nuget/packages/jetbrains.dotcover.globaltool/2022.2.3/tools/netcoreapp3.1/any/dotCover/dotCover.exe cover --Filters=-:module=Microsoft.*;-:module=FSharp.*;-:class=VSharp.*;-:module=VSharp.Utils --ReportType=JSON --Output=/home/runner/work/VSharp/VSharp/output/DFS/20/coverage.json --LogFile=/home/runner/work/VSharp/VSharp/output/DFS/20/dc_log.txt --SymbolSearchPaths=/home/runner/work/VSharp/VSharp/benchmarks/jb_lifetimes "--TargetArguments=VSharp.TestRunner.dll /home/runner/work/VSharp/VSharp/output/DFS/20 --recursive" --TargetWorkingDir=/home/runner/work/VSharp/VSharp/VSharp.TestRunner/bin/Release/netcoreapp6.0 --TargetExecutable=/usr/share/dotnet/dotnet --IsGlobalTool=True
+13:43:44.438 |I| Main                          | :1                 | Creating command...
+13:43:44.635 |I| Main                          | :1                 | Known target executable: Unknown dotnet command (/usr/share/dotnet/dotnet)
+13:43:44.662 |I| Main                          | :1                 | Executing command...
+13:43:44.939 |I| Main                          | :1                 | Coverage session started
+13:43:45.673 |I| Main                          | BridgeCoreThread:18 | Profilee process accepted (pid=5870): /usr/share/dotnet/dotnet (/usr/share/dotnet/dotnet VSharp.TestRunner.dll /home/runner/work/VSharp/VSharp/output/DFS/20 --recursive)
+13:43:48.863 |I| Main                          | BridgeCoreThread:18 | CoreAlert event received, pid=5870: 11/08/2022 13:43:48, Warning, "Instrumentation was requested, but wasn't made", HResult=E_FAIL (-2147467259)
+13:43:48.878 |I| Main                          | :19                | SnapshotDone event received, pid=5870: /tmp/JetBrainsPerUserTemp-1001-1/ssd.Gilasyf.tmp
+13:43:50.127 |I| Main                          | JetPool(S) #1:14   | Finished event received
+13:43:50.128 |I| Main                          | JetPool(S) #1:14   | Analyzed application exited with code '1'
+13:43:50.143 |I| Main                          | :1                 | Coverage session finished
+13:43:50.145 |I| Main                          | :1                 | Index files: /tmp/JetBrainsPerUserTemp-1001-1/ssd.Gilasyf.tmp
+13:43:50.146 |I| Main                          | :1                 | Coverage results post-processing started
+13:43:50.147 |I| RawSnapshotPostProcessingHelper| :1                 | MergeIsRequired. IndexFile='/tmp/JetBrainsPerUserTemp-1001-1/ssd.Gilasyf.tmp'
+13:43:50.176 |I| CoverageSnapshotComposer      | JetPool(S) #1:14   | Unknown section ignored: type=1, version=0
+13:43:50.303 |I| Main                          | :1                 | Report generation started
+13:43:50.312 |I| CoverageSnapshotComposer      | :1                 | Unknown section ignored: type=1, version=0
+13:43:50.736 |I| JsonReportBuilder             | :1                 | BuildJsonReport. FileName = /home/runner/work/VSharp/VSharp/output/DFS/20/coverage.json
+13:43:50.796 |I| Main                          | :1                 | Report generation finished
+13:43:50.799 |I| Main                          | :1                 | Coverage results post-processing finished
+13:43:50.815 |I| Main                          | :1                 | Console Runner exit code: 253
