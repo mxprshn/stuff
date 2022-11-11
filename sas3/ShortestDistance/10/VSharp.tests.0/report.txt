@@ -1,0 +1,20 @@
+Total time: 00:00:10.2.
+
+
+17 error(s) occured!
+---------------------- 8 time(s): ----------------------
+unreachable branch hit!
+---------------------- 3 time(s): ----------------------
+New extern method: System.Void System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(System.Runtime.CompilerServices.QCallTypeHandle)
+---------------------- 1 time(s): ----------------------
+creating object from term: unexpected term (HeapRef mySingleValue to JetBrains.Threading.ByteBufferAsyncProcessor)
+---------------------- 1 time(s): ----------------------
+simplifyBinary of: True LogicalOr 4
+---------------------- 1 time(s): ----------------------
+simplifyBinary of: True LogicalOr 1
+---------------------- 1 time(s): ----------------------
+New extern method: Interop+BOOL Interop+Kernel32.QueryPerformanceFrequency(System.Int64*)
+---------------------- 1 time(s): ----------------------
+expected HeapRef, but got null
+---------------------- 1 time(s): ----------------------
+New extern method: System.Void System.String..ctor(this, System.ReadOnlySpan`1[System.Char])
